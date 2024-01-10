@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Mihaela- editor svg</title>
+</head>
+<body>
+  <div id="svgEditor">
+    <div class="toolbar">
+      <button id="addRect">Adauga un patrat</button>
+      <button id="addCircle">Adayga un cerc</button>
+      <button id="addLine">Adauga o linie</button>
+      <button id="undoButton">Undo</button>
+      <input type="color" id="colorPicker">
+      <input type="range" id="lineWidth" min="1" max="10">
+    </div>
+    <svg id="svgCanvas" width="800" height="600"></svg>
+    <div class="exportButtons">
+      <button id="exportPNG">Export ca PNG</button>
+      <button id="saveSVG">Salveaza ca SVG</button>
+    </div>
+  </div>
+<script src="index.js"></script>
+</body>
+</html>
